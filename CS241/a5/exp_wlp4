@@ -1,0 +1,22 @@
+int wain(int x, int n){
+  int y = 1;
+  int remainder = 0;
+  int answer = 1;
+  if (n != 0) {
+    while (n > 1) {
+      remainder = n % 2;
+      if (remainder == 0) {
+        x = x * x;
+        n = n / 2;
+      } else {
+        y = x * y;
+        x = x * x;
+        n = (n - 1) / 2;
+      }
+    }
+    answer = y * x;
+  } else {
+    answer = 1;
+  }
+  return answer;
+}
