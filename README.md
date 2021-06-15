@@ -12,3 +12,6 @@ Internship at Newfiber from Sept 2020 to Dec 2020.
 
 ## CS241
 c++ codes for CS241
+
+## CS246
+c++ codes for CS246
